@@ -1,45 +1,33 @@
-# Financial Agent
+# 2026 Project 07 — Business Watch Agent
 
-![AI Engineering](https://img.shields.io/badge/AI-engineering-blue)
+## Purpose
 
-## AI Engineering Learning Program
+This project replaces the narrower `financial_agent` concept with a broader business watch agent.
 
-This repository is part of my **AI Engineering learning journey**.
+The goal is to build an agent able to monitor sources, compare items, summarize relevant changes, and prepare actionable alerts.
 
-Designed and developed **from scratch by myself with AI assistance for research and ideation**.
+Possible use cases:
 
----
+- server hardware watch;
+- supplier watch;
+- market price watch;
+- tender watch;
+- financial watch;
+- classified listing analysis.
 
-## Description
+## Position in the roadmap
 
-Autonomous financial analysis agent.
+This project comes after:
 
----
+- workflow automation;
+- RAG;
+- AI agents fundamentals.
 
-## Learning objectives
+It should combine:
 
-- Build production-ready AI systems
-- Master LLM infrastructure
-- Develop advanced RAG architectures
-- Build autonomous AI agents
-- Integrate multimodal AI systems
-
----
-
-## Repository structure
-
-src/ → implementation  
-docs/ → architecture  
-tests/ → experiments  
-examples/ → demos  
-docker/ → container setup  
-
----
-
-## Progress tracking
-
-See `progress.md`
-
-Started: 2026-03-10
-
-Status: 🚧 In progress
+```text
+workflow automation
+  + retrieval / memory
+  + agentic reasoning
+  + alerting
+```
